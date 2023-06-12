@@ -22,3 +22,95 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.title2 {
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px
+}
+
+#img_background {
+  background-image: url('../images/apple-pie.jpg');
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  margin-right: 100px ;
+  margin-left: 100px;
+}
+
+.recipe_img {
+  max-width: 50%;
+  max-height: 50%;
+  margin-right: auto;
+  margin-left: 500px;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+}
+
+.parag1 {
+font-size: 1.10em;
+text-align: justify;
+margin-top: 30px;
+margin-right: 375px;
+margin-left: 375px;
+}
+
+hr {
+  height:5px;
+  border-width:0;
+  background-color:#070707;
+}
+
+.ingredients {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 350px;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+.ingredients_desc{
+  font-size: 1.10em;
+  text-align: justify;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+.cooking_img {
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: 500px;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+}
+
+hr {
+  height: 1px;
+  width: 50%;
+  background-color:#070707;
+}
+
+.directions {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 350px;
+}
+
+.directionsp {
+  font-size: 1.10em;
+  text-align: justify;
+  margin-right: 400px;
+  margin-left: 400px;
+}
