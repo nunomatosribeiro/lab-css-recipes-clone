@@ -29,8 +29,8 @@ body {
   text-align: center;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 120px
+  transform: translate(-50%, 20%);
+  font-size: 120px;
 }
 
 #img_background {
@@ -54,11 +54,13 @@ body {
 }
 
 .parag1 {
-font-size: 1.10em;
-text-align: justify;
-margin-top: 30px;
-margin-right: 375px;
-margin-left: 375px;
+font-size: 1.20em;
+text-align: left;
+margin-top: 75px;
+margin-right: 350px;
+margin-bottom: 40px;
+margin-left: 350px;
+line-height: 1.5;
 }
 
 hr {
@@ -82,12 +84,14 @@ ul {
   font-size: 1.10em;
   text-align: justify;
   margin-right: 400px;
-  margin-left: 400px;
+  margin-left: 370px;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 .cooking_img {
   max-width: 50%;
   max-height: 50%;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-right: auto;
   margin-left: 500px;
   border-radius: 4px;
@@ -110,7 +114,10 @@ hr {
 
 .directionsp {
   font-size: 1.10em;
-  text-align: justify;
-  margin-right: 400px;
-  margin-left: 400px;
+  text-align: left;
+  margin-right: 325px;
+  margin-bottom: 50px;
+  margin-left: 350px;
+  line-height: 1.5;
+  list-style-position: inside;
 }
